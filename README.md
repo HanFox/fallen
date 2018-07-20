@@ -4,7 +4,7 @@
 
 A Beautiful phpMyAdmin theme. Designed for you.
 
-<a href="https://www.marsble.com/d/2" target="_blank"><img src="https://www.marsble.com/images/buttons/btn_discuss.png" alt="Discuss on Marsble"></a>
+<a href="https://on.marsble.com/8q" target="_blank"><img src="https://static.marsble.com/images/buttons/btn_discuss.png" alt="Discuss on Marsble"></a>
 
 ## Usage
 
