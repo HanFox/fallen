@@ -66,6 +66,10 @@ tr.vbottom th, tr.vbottom td, th.vbottom, td.vbottom {
   padding: 8px!important
 }
 
+.responsivetable {
+	overflow-x: auto;
+}
+
 .column_heading, .column_action {
   background-color: #f6f6f6;
   border: 1px solid <?php echo $GLOBALS['cfg']['BorderColor'] ?>
@@ -91,8 +95,12 @@ table tr {
   line-height: 1em
 }
 
+table tr:hover {
+  background-color: rgba(66, 133, 244, 0.15) !important;
+}
+
 td.marked:not(.nomarker), table tr.marked:not(.nomarker) td, table tbody:first-of-type tr.marked:not(.nomarker) th, table tr.marked:not(.nomarker) {
-  background-color: <?php echo $GLOBALS['cfg']['MainColor'] ?>;
+  background-color: rgba(66, 133, 244, 0.5);
 }
 
 td.marked:not(.nomarker) {
