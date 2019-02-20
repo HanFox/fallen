@@ -92,12 +92,11 @@ table tr {
 }
 
 td.marked:not(.nomarker), table tr.marked:not(.nomarker) td, table tbody:first-of-type tr.marked:not(.nomarker) th, table tr.marked:not(.nomarker) {
-  color: <?php echo $GLOBALS['cfg']['MainColor'] ?>;
-  background: #4285f438;
+  background-color: <?php echo $GLOBALS['cfg']['MainColor'] ?>;
 }
 
 td.marked:not(.nomarker) {
-  background-color: <?php echo $GLOBALS['cfg']['BrowseMarkerBackground'] ?>
+  background-color: <?php echo $GLOBALS['cfg']['BrowseMarkerBackground'] ?>;
 }
 
 table tr.marked:not(.nomarker) {
@@ -112,7 +111,7 @@ table tr.hover:not(.nopointer) th {
 th.condition, th.condition a {
   border: 1px solid <?php echo $GLOBALS['cfg']['BrowseWarningColor'] ?>;
   background: <?php echo $GLOBALS['cfg']['BrowseWarningColor'] ?>;
-  color: <?php echo $GLOBALS['cfg']['MainBackground'] ?>!important
+  color: <?php echo $GLOBALS['cfg']['MainBackground'] ?> !important;
 }
 
 td.condition {
@@ -281,12 +280,12 @@ th.header .sorticon {
 }
 
 th.headerSortUp .sorticon, th.headerSortDown:hover .sorticon {
-  background-image: url(<?php echo $_SESSION['PMA_Theme']->getImgPath('s_desc.png');
+  background-image: url(<?php echo $theme->getImgPath('s_desc.png');
   ?>)
 }
 
 th.headerSortDown .sorticon, th.headerSortUp:hover .sorticon {
-  background-image: url(<?php echo $_SESSION['PMA_Theme']->getImgPath('s_asc.png');
+  background-image: url(<?php echo $theme->getImgPath('s_asc.png');
   ?>)
 }
 /* end of styles of sortable tables */

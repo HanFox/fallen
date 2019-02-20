@@ -1,7 +1,7 @@
 .navigation {
   width: 100%;
   background-color: <?php echo $GLOBALS['cfg']['NaviBackground'] ?>;
-  color: <?php echo $GLOBALS['cfg']['NaviColor'] ?>
+  //color: <?php echo $GLOBALS['cfg']['NaviColor'] ?>;
 }
 
 .navigation td {
@@ -42,11 +42,11 @@
 
 .navigation select {
   margin: 0 0.8em;
-  border: none
+  //border: none
 }
 
 .navigation input[type=text] {
-  border: none
+  //border: none
 }
 
 .navigation_goto {

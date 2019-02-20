@@ -1,6 +1,6 @@
 <?php
 // Unplanned execution path
-if (!defined('PMA_MINIMUM_COMMON') && !defined('TESTSUITE') ) {
+if (!defined('PMA_MINIMUM_COMMON') && !defined('TESTSUITE')) {
     exit();
 }
 
@@ -13,7 +13,7 @@ $brand = 'phpMyAdmin';
 // Do not edit!!!
 // Or the theme will be broken!
 $name = 'Fallen';
-$version = '0.4';
+$version = '0.7';
 $slug = 'fallen';
 $font_family_icon = 'Fallen' ?>
 /* ----------------------------------------------------- */
@@ -97,7 +97,7 @@ $font_family_icon = 'Fallen' ?>
 /* LTR
 ---------------------------------------------- */
 
-<?php if ($GLOBALS['text_dir'] === 'ltr' ) {
+<?php if ($GLOBALS['text_dir'] === 'ltr') {
     include CSS_PATH . '/common/ltr.css.php';
 } ?>
 
