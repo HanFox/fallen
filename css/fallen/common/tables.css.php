@@ -95,7 +95,7 @@ table tr {
   line-height: 1em
 }
 
-table tr:hover {
+table.table_results tr:hover {
   background-color: rgba(66, 133, 244, 0.15) !important;
 }
 
